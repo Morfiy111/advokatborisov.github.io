@@ -38,7 +38,9 @@ a:focus, a:hover {
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
-    position: relative;
+    position: relative; 
+}
+.order-button-click-header {
     margin-left: 15px;
 }
 .order-button-click:after {
@@ -107,6 +109,22 @@ button.close {
 }
 .navbar-default .navbar-nav > li > a {
     color: #0d0826;
+}
+.banner-image-block img {
+    width: 100%;
+}
+.main-banner-block {
+    position: relative;
+}
+.main-banner-button {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main-banner-button .order-button-click {
+    font-size: 30px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
