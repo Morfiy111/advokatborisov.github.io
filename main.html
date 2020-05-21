@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <title>Адвокат Борисов</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">  
+    <link href="css/font-awesome.css" rel="stylesheet">  
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">  
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="header-block">
+        <div class="container">
+            <div class="header-row-flex">
+                <div class="header-logo">
+                    <a href="/"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="header-contact-block">
+                    <a href="tel:+79192755074"><i class="fa fa-mobile" aria-hidden="true"></i> +7 (919) 275-50-74</a>
+                    <a href="mailto:andreu.borisow@yandex.ru"><i class="fa fa-envelope-o" aria-hidden="true"></i> andreu.borisow@yandex.ru</a>
+                    <button class="order-button-click order-button-click-header" data-toggle="modal" data-target="#modal-send">ОСТАВИТЬ ЗАЯВКУ</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="modal fade" id="modal-send" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <div class="modal-body">
+                    <div class="owl-feedback-form js-send-form">
+                        <h3>Заполните и отправьте заявку!</h3>
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="text" name="phone" placeholder="Телефон">
+                        <input type="text" name="email" placeholder="email">
+                        <textarea rows="5" name="comment" placeholder="Ваше сообщение"></textarea>
+                        <button class="order-button-click order-button-click-black">Отправить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>  
+  </body>
+</html>
