@@ -105,7 +105,9 @@ button.close {
     background-color: #0d0826;
     position: relative;
 }
-
+.navbar-default .navbar-nav > li > a {
+    color: #0d0826;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -120,9 +122,6 @@ button.close {
     }
     .order-button-click {
         margin: 15px;
-    }
-    .navbar-default .navbar-nav > li > a {
-        color: #0d0826;
     }
     .navbar-toggle.active .icon-bar:nth-of-type(1) {
         top: 6px;
