@@ -109,7 +109,7 @@ button.close {
     left: 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #0d0826;
+    background-color: #fff;
     position: relative;
 }
 .navbar-default .navbar-nav > li > a {
@@ -138,7 +138,7 @@ button.close {
     margin-bottom: 30px;
 }
 .min-subtitle {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #0d0826;
     display: inline-block;
     margin-bottom: 40px;
     padding-bottom: 5px;
@@ -147,6 +147,7 @@ button.close {
     width: 32%;
     background-image: url("../images/practics1.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
     padding: 40px 25px;
     position: relative;
     margin-bottom: 30px;
@@ -202,29 +203,29 @@ button.close {
     border-radius: 0;
 }
 .about-block-main {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 40px;
 }
 .about-block-main-img {
     width: 40%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 .about-block-main-img img {
     width: 100%;
 }
 .about-block-main-text {
-    width: 56%;
     font-size: 18px;
 }
 .subtitle-block-center {
     text-align: center;
 }
 .black-main-page-button {
-    border-color: #333;
-    color: #333;
+    border-color: #0d0826;
+    color: #0d0826;
 }
 .black-main-page-button:hover:after {
-    border-color: #333;
+    border-color: #0d0826;
 }
 .main-success-img img {
     width: 100%;
@@ -238,12 +239,12 @@ button.close {
     width: 24%;
     text-align: center;
     margin-bottom: 40px;
-    border: 1px solid #333;
+    border: 1px solid #0d0826;
     padding-bottom: 30px;
 }
 .main-success-title a {
     color: #333;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #0d0826;
 }
 .main-success-title {
     margin: 20px 0 40px 0;
@@ -258,7 +259,6 @@ button.close {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 40px 0;
     margin-bottom: 40px;
 }
 .post-item-wrap {
@@ -271,7 +271,7 @@ button.close {
     text-decoration: none;
     display: block;
     padding: 30px;
-    color: #333;
+    color: #0d0826;
 }
 .post-item-wrap:after {
     content: "";
@@ -297,12 +297,58 @@ button.close {
 .margin-bottom-check {
     margin-bottom: 40px;
 }
+.footer-page {
+    background-color: #0d0826;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.footer-logo img {
+    width: 315px;
+}
+.footer-flex-block a {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+.footer-flex-block a:hover {
+    border-color: transparent;
+}
+.footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.footer-copyright a {
+    color: #fff;
+}
+.footer-logo a {
+    border-color: transparent;
+}
+.social-block a {
+    border-color: transparent;
+    font-size: 22px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
         justify-content: center;
         width: 100%;
         font-weight: bold;
+    }
+}
+@media (max-width: 991px) {
+    .practics-item-block, .main-success-item, .post-item-wrap {
+        width: 48%;
+    }
+    .footer-flex-block {
+        flex-wrap: wrap;
     }
 }
 @media(max-width: 767px) {
@@ -323,6 +369,37 @@ button.close {
         top: -6px;
         transform: rotate(-45deg);
     }
+    .practics-item-block, .main-success-item, .post-item-wrap {
+        width: 100%;
+    }
+    .about-block-main-img {
+        width: 100%;
+        float: none;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .about-block-main-text {
+        text-align: justify;
+    }
+    .banner-image-block {
+        text-align: center;
+    }
+    .banner-image-block img {
+        width: auto;
+        height: 400px;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #0d0826;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #0d0826;
+        background-color: #0d0826;
+    }
+    .practics-item-block .order-button-click {
+        margin: 0;
+    }
 }
 @media(max-width: 500px) {
     .header-logo img {
@@ -333,5 +410,11 @@ button.close {
     }
     .main-banner-button .order-button-click {
         font-size: 22px;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+    .practics-item-block {
+        background-size: cover;
     }
 }
