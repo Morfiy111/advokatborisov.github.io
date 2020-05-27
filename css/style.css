@@ -146,11 +146,11 @@ button.close {
 .practics-item-block {
     width: 32%;
     background-image: url("../images/practics1.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 25px;
     position: relative;
-    margin-bottom: 30px;
+    margin: 0 6px 20px 6px;
 }
 .practics-item-block:nth-child(2) {
     background-image: url("../images/practics2.jpg");
@@ -187,7 +187,7 @@ button.close {
 }
 .flex-block-pracktics {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
