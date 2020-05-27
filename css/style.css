@@ -337,10 +337,6 @@ button.close {
     border-color: transparent;
     font-size: 22px;
 }
-.wiget-block {
-    display: flex;
-    justify-content: center;
-}
 .button-height-block {
     height: 51px;
     margin-bottom: 40px;
