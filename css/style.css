@@ -151,6 +151,7 @@ button.close {
     padding: 40px 25px;
     position: relative;
     margin: 0 6px 20px 6px;
+    box-shadow: 0px 4px 5px #333;
 }
 .practics-item-block:nth-child(2) {
     background-image: url("../images/practics2.jpg");
@@ -241,6 +242,7 @@ button.close {
     margin-bottom: 40px;
     border: 1px solid #0d0826;
     padding-bottom: 30px;
+    box-shadow: 0px 4px 5px #333;
 }
 .main-success-title a {
     color: #333;
