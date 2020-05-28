@@ -442,6 +442,15 @@ button.close {
 .read-later-block a:hover {
     border-bottom-color: transparent;
 }
+.news-images {
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+.news-images img {
+    width: 100%;
+    margin: 0 20px 20px 0;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -542,5 +551,9 @@ button.close {
     }
     .practics-item-block {
         background-size: cover;
+    }
+    .news-images {
+        width: 100%;
+        margin-right: 0;
     }
 }
