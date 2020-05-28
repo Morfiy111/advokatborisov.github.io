@@ -379,6 +379,14 @@ button.close {
     display: flex;
     justify-content: space-around;
 }
+.breadcrumb {
+    background-color: transparent;
+    padding: 10px 15px 8px 0;
+}
+.breadcrumb a, .breadcrumb span {
+    color: #0d0826;
+    padding: 0 2px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
