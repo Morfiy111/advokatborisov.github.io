@@ -242,7 +242,7 @@ button.close {
     box-shadow: 0px 4px 5px #777;
 }
 .main-success-title a {
-    color: #333;
+    color: #0d0826;
     border-bottom: 1px solid #0d0826;
 }
 .main-success-title {
@@ -342,6 +342,29 @@ button.close {
     border: 1px solid #0d0826;
     text-align: center;
     padding: 20px;
+}
+.contact-tel-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.contact-col-block {
+    width: 30%;
+}
+.contact-title-bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-sub-title a {
+    color: #0d0826;
+    border-bottom: 1px solid #0d0826;
+    font-weight: bold;
+}
+.contact-sub-title a:hover {
+    border-bottom-color: transparent;
+}
+.contact-title {
+    text-align: center;
 }
 @media (min-width: 768px) {
     .navbar-nav {
