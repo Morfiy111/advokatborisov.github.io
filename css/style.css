@@ -431,6 +431,13 @@ button.close {
     .practics-item-block .order-button-click {
         margin: 0;
     }
+    .contact-tel-block {
+        flex-direction: column;
+    }
+    .contact-col-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 @media(max-width: 500px) {
     .header-logo img {
