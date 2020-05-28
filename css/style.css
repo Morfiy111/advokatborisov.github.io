@@ -215,9 +215,6 @@ button.close {
 .about-block-main-img img {
     width: 100%;
 }
-.about-block-main-text {
-    font-size: 18px;
-}
 .subtitle-block-center {
     text-align: center;
 }
@@ -340,6 +337,11 @@ button.close {
 .button-height-block {
     height: 51px;
     margin-bottom: 40px;
+}
+.about-button-block {
+    border: 1px solid #0d0826;
+    text-align: center;
+    padding: 20px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
