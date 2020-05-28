@@ -366,6 +366,19 @@ button.close {
 .contact-title {
     text-align: center;
 }
+.certificate-item-img {
+    margin-bottom: 40px;
+}
+.certificate-item-img img {
+    width: 100%;
+}
+.certificate-item {
+    width: 33%;
+}
+.certificate-block {
+    display: flex;
+    justify-content: space-around;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -437,6 +450,12 @@ button.close {
     .contact-col-block {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .certificate-block {
+        flex-wrap: wrap;
+    }
+    .certificate-item {
+        width: 100%;
     }
 }
 @media(max-width: 500px) {
