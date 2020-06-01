@@ -247,6 +247,7 @@ button.close {
 }
 .main-success-title {
     margin: 20px 0 40px 0;
+    height: 50px;
 }
 .main-success-title a:hover {
     border-color: transparent;
