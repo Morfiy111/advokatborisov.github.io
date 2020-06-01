@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'TrajanPro3-Regular';
+    src: url('../fonts/TrajanPro3-Regular.otf');
+}
 body {
     font-family: 'Open Sans', sans-serif;
     color: #333;
@@ -111,9 +115,11 @@ button.close {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
     position: relative;
+    font-family: 'TrajanPro3-Regular';
 }
 .navbar-default .navbar-nav > li > a {
     color: #0d0826;
+    font-family: 'TrajanPro3-Regular';
 }
 .banner-image-block img {
     width: 100%;
