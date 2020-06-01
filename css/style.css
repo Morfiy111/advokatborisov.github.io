@@ -452,6 +452,22 @@ button.close {
     width: 100%;
     margin: 0 20px 20px 0;
 }
+.advantages-item-img img {
+    width: 100%;
+}
+.advantages-item-img {
+    margin: 0 30px 20px 0;
+    float: left;
+    width: 300px;
+}
+.advantages-item-block {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0d0826;
+}
+.advantages-item-title {
+    margin-bottom: 30px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -534,6 +550,9 @@ button.close {
         flex-direction: column;
     }
     .news-block-img, .news-block-body {
+        width: 100%;
+    }
+    .advantages-item-img {
         width: 100%;
     }
 }
